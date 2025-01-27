@@ -1,0 +1,100 @@
+@media (min-width:740px) and (max-width: 1023px){
+    #header .menu-mobile {
+        display: none;
+    }
+}
+
+/* tablet & mobile */
+@media (max-width:1023px) {
+    .btn {
+        padding: 15px 16px
+    }    
+
+    .form-control {
+        padding: 15px
+    }
+
+    .content-footer {
+        font-size: 40px;
+    }
+    .content-footer a{
+        margin: 0 10px;
+    }
+
+    .contact-infor {
+        line-height: 1.9;
+    }
+    .contact-content a {
+        color: #7883fc;
+    } 
+
+    
+}
+
+
+@media (max-width:739px) {
+    .s-full-witth,
+    .s-col-full {
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #3d3a3a;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 36px
+    }
+
+    #content .member-item {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+    
+   
+    
+    
+}
+
+
+@media (min-width:1024px) {
+    
+
+    #header .menu-mobile {
+        display: none;
+    }
+    .contact-content a {
+        color: #7883fc;
+    } 
+
+    .contact-content a:hover {
+        color: #3242fb;
+    } 
+
+}
+
